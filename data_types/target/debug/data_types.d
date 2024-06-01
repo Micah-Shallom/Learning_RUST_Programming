@@ -1,0 +1,1 @@
+C:\Users\micah\Documents\WorkSpaces\Projects\Learning_RUST_Programming\data_types\target\debug\data_types.exe: C:\Users\micah\Documents\WorkSpaces\Projects\Learning_RUST_Programming\data_types\src\main.rs
