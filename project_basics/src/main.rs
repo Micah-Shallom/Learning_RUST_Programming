@@ -1,4 +1,4 @@
-// use std::io;
+use std::io;
 
 /// Project Basics
 
@@ -9,21 +9,21 @@ fn main() {
     //! fn main()
     //! 
     //! Reads user input and prints it to the console
-    // let mut input = String::new();
+    let mut input = String::new();
 
     // /Print a mesage to the user
     println!("Say something");
     /*
         Check and respond accordingly
      */
-    // match io::stdin().read_line(&mut input) {
-    //     Ok(_) => {
-    //         println!("You said {}", input);
-    //     },
-    //     Err(e) => {
-    //         println!("Something went wrong {}", e);
-    //     }
-    // }
+    match io::stdin().read_line(&mut input) {
+        Ok(_) => {
+            println!("You said {}", input);
+        },
+        Err(e) => {
+            println!("Something went wrong {}", e);
+        }
+    }
 
     //formatting
     println!("My name is {} and I am {} years old", "Alex", "29");
